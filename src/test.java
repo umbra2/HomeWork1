@@ -1,6 +1,13 @@
 
 public class test {
 	
+	
+	public static void randArray(int inputArray[]){
+		for(int i = 0; i < inputArray.length; i++) {
+			inputArray[i] = (int)(Math.random() * 100);
+		}
+	}
+	
 	public static void bblSort(int inputArray[]) {
 		//Создаем 2 цикла - внешний проводит итеррацию по массиву, внутренний меняет местами элементы в неупорядоченной паре
 		for(int i = inputArray.length - 1; i > 0 ; i--){

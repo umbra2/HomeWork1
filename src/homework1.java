@@ -6,17 +6,18 @@ public class homework1 {
 	 */
 	public static void main(String[] args) {
 		int[] array = new int[10];
-		randArray(array);
-		
+		test.randArray(array);
 		test.bblSort(array);
 		test.printArray(array);
 
 	}
+	/**
 	public static void randArray(int inputArray[]){
 		for(int i = 0; i < inputArray.length; i++) {
 			inputArray[i] = (int)(Math.random() * 100);
 		}
 	}
+	*/
 	
 
 }
