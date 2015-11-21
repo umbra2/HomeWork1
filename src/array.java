@@ -1,5 +1,10 @@
 
-public class test {
+public class array {
+	public static void randArray(int inputArray[]){
+		for(int i = 0; i < inputArray.length; i++) {
+			inputArray[i] = (int)(Math.random() * 100);
+		}
+	}
 	
 	public static void bblSort(int inputArray[]) {
 		//Создаем 2 цикла - внешний проводит итеррацию по массиву, внутренний меняет местами элементы в неупорядоченной паре
@@ -18,14 +23,6 @@ public class test {
 		for (int i = 0; i < inputArray.length; i++){
 			System.out.println(inputArray[i]);
 		}
-	}
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 	}
 
 }

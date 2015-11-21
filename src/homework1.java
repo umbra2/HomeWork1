@@ -5,18 +5,13 @@ public class homework1 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int[] array = new int[10];
-		randArray(array);
-		
-		test.bblSort(array);
-		test.printArray(array);
+		int[] arr1 = new int[10];
+		array.randArray(arr1);
+		array.bblSort(arr1);
+		array.printArray(arr1);
 
 	}
-	public static void randArray(int inputArray[]){
-		for(int i = 0; i < inputArray.length; i++) {
-			inputArray[i] = (int)(Math.random() * 100);
-		}
-	}
+	
 	
 
 }
