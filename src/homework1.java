@@ -1,4 +1,3 @@
-
 public class homework1 {
 
 	/**
@@ -13,6 +12,7 @@ public class homework1 {
 		array.selSort(arr2);
 		array.printArray(arr1);
 		array.printArray(arr2);
+		
 
 	}
 	

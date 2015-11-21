@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 
 public class array {
 	
@@ -43,9 +45,7 @@ public class array {
 	
 	//Вывод массива на экран
 	public static void printArray(int inputArray[]){
-		for (int i = 0; i < inputArray.length; i++){
-			System.out.println(inputArray[i]);
-		}
+		System.out.println(Arrays.toString(inputArray));
 	}
 
 }
